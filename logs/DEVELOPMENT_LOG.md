@@ -66,3 +66,10 @@
 - **Density**: Average 6.93 objects per image (Min: 1, Max: 24).
 - **Depth Stats**: Car average distance ~29.38m, Pedestrian ~18.44m, Cyclist ~25.92m.
 - **Status**: Phase 2 completed.
+
+## [2026-09-18] Phase 3 - Steps 12–17: Dataset Preparation & DataLoader Verification
+- **Split Stats**: Total 7,481 (Train: 5,236, Val: 1,122, Test: 1,123).
+- **DataLoader Verification**:
+  - Image Tensor Shape: `torch.Size([4, 3, 384, 1280])`
+  - Calibration Matrix P2 Shape: `torch.Size([4, 3, 4])`
+- **Status**: Completed Phase 3.
