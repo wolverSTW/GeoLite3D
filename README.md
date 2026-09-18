@@ -61,7 +61,7 @@ source .venv/Scripts/activate
 ### 3. Install Dependencies:
 
 ```bash
-pip install torch torchvision --index-url [https://download.pytorch.org/whl/cu121](https://download.pytorch.org/whl/cu121)
+pip install torch torchvision --index-url https://download.pytorch.org/whl/cu121
 pip install ultralytics pillow matplotlib
 ```
 
