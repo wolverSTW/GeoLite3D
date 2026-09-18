@@ -1,0 +1,11 @@
+# Local Datasets & Large Files
+data/
+runs/
+*.pth
+*.onnx
+
+# Python Artifacts
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.env
