@@ -44,3 +44,8 @@
 - **Goal**: Verify KITTI 3D dataset structure (`image_2`, `label_2`, `calib`) using an automated verification script.
 - **Created File**: `src/utils/check_kitti_dataset.py`
 - **Status**: Completed Phase 1 dataset setup.
+
+## [2026-09-18] Phase 1 - Step 5 & 6: KITTI Downloader Script
+- **Goal**: Implement `src/utils/download_kitti.py` to automate downloading and extraction of KITTI dataset.
+- **Modes Supported**: `mini` (labels + calib), `full` (images + labels + calib).
+- **Status**: Downloader script integrated into `src/utils/`.
