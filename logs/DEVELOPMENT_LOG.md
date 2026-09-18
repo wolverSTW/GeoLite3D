@@ -47,3 +47,8 @@
 - **Goal**: Implement `src/utils/download_kitti.py` to automate downloading and extraction of KITTI dataset.
 - **Modes Supported**: `mini` (labels + calib), `full` (images + labels + calib).
 - **Status**: Downloader script integrated into `src/utils/`.
+
+## [2026-09-18] Phase 2 - Steps 8–11: Exploratory Data Analysis (EDA)
+- **Goal**: Analyze class distributions, objects per image, and distance stats across KITTI dataset.
+- **Created File**: `src/eda/analyze_kitti.py`
+- **Status**: Executed EDA script and extracted target dataset statistics.
