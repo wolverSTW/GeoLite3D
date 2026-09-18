@@ -1,11 +1,18 @@
-# Local Datasets & Large Files
+# Python / Virtual Environment
+.venv/
+__pycache__/
+*.pyc
+*.pyo
+
+# Datasets & Weights
 data/
-runs/
+yolov10n.pt
+*.pt
 *.pth
 *.onnx
 
-# Python Artifacts
-__pycache__/
-*.pyc
-.ipynb_checkpoints/
-.env
+# Results & Logs
+results/
+runs/
+.idea/
+.vscode/
