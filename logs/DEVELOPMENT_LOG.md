@@ -39,3 +39,8 @@
   - Implement Probabilistic Uncertainty Loss ($\beta$-NLL).
   - Benchmark $AP_{3D}$, $AP_{BEV}$, Depth MAE/RMSE, and FPS on RTX 4090.
 - **Status**: Completed Phase 0 (Research Initiation & Problem Definition).
+
+## [2026-09-18] Phase 1 - Steps 5, 6, 7: Dataset Selection, Acquisition & Verification
+- **Goal**: Verify KITTI 3D dataset structure (`image_2`, `label_2`, `calib`) using an automated verification script.
+- **Created File**: `src/utils/check_kitti_dataset.py`
+- **Status**: Completed Phase 1 dataset setup.
