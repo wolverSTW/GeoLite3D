@@ -59,3 +59,10 @@
 - **Density**: Average 6.93 objects per image (Min: 1, Max: 24).
 - **Depth Stats**: Car average distance ~29.38m, Pedestrian ~18.44m, Cyclist ~25.92m.
 - **Status**: Phase 2 completed.
+
+## [2026-09-18] Phase 2 - Steps 8–11: EDA Execution Completed
+- **Dataset Summary**: Analyzed 7,481 training images and label files.
+- **Class Stats**: Car (28,742), DontCare (11,295), Pedestrian (4,487), Van (2,914), Cyclist (1,627), Truck (1,094), Misc (973), Tram (511), Person_sitting (222).
+- **Density**: Average 6.93 objects per image (Min: 1, Max: 24).
+- **Depth Stats**: Car average distance ~29.38m, Pedestrian ~18.44m, Cyclist ~25.92m.
+- **Status**: Phase 2 completed.
