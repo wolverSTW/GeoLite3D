@@ -83,3 +83,8 @@
 - **Loss Formulation**: Formulated Multi-task Loss (Focal + L1 + Smooth L1) for 3D Monocular Detection.
 - **Trainer Engine**: Built `GeoLiteTrainer` supporting AdamW optimizer and PyTorch data processing loop.
 - **Status**: Executed sanity check and verified training loop execution.
+
+## [2026-09-18] Phase 6 - Steps 28–32: Inference Pipeline & 3D Decoder
+- **3D Decoder**: Implemented `GeoLiteDecoder` for extracting 3D boxes from multi-task prediction maps using P2 calibration matrix.
+- **Inference Integration**: Verified end-to-end forward pass and post-processing pipeline.
+- **Status**: Completed Phase 6. Ready for Final Pipeline Integration & Documentation (Phase 7).
