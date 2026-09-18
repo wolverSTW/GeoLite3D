@@ -19,6 +19,7 @@
 - **Status**: Completed Step 2 review.
 
 ## [2026-09-18] Phase 0 - Step 3: Research Gap Identification
+
 - **Goal**: Identify key limitations in current literature and define GeoLite3D core contributions.
 - **Identified Research Gaps**:
   1. High computational latency in existing geometry models due to NMS post-processing.
@@ -31,6 +32,7 @@
 - **Status**: Completed Step 3 gap analysis.
 
 ## [2026-09-18] Phase 0 - Step 4: GeoLite3D Project Definition
+
 - **Goal**: Finalize project definition, aims, objectives, and scope for Dissertation documentation.
 - **Project Aim**: Build a lightweight, geometry-guided Monocular 3D Object Detector (GeoLite3D) leveraging YOLOv10.
 - **Key Objectives**:
@@ -40,12 +42,8 @@
   - Benchmark $AP_{3D}$, $AP_{BEV}$, Depth MAE/RMSE, and FPS on RTX 4090.
 - **Status**: Completed Phase 0 (Research Initiation & Problem Definition).
 
-## [2026-09-18] Phase 1 - Steps 5, 6, 7: Dataset Selection, Acquisition & Verification
-- **Goal**: Verify KITTI 3D dataset structure (`image_2`, `label_2`, `calib`) using an automated verification script.
-- **Created File**: `src/utils/check_kitti_dataset.py`
-- **Status**: Completed Phase 1 dataset setup.
-
 ## [2026-09-18] Phase 1 - Step 5 & 6: KITTI Downloader Script
+
 - **Goal**: Implement `src/utils/download_kitti.py` to automate downloading and extraction of KITTI dataset.
 - **Modes Supported**: `mini` (labels + calib), `full` (images + labels + calib).
 - **Status**: Downloader script integrated into `src/utils/`.
