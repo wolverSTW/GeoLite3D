@@ -29,3 +29,13 @@
   2. Add Geometry-Aware Depth Predictor ($Z_{geo} + Z_{err}$).
   3. Implement $\beta$-NLL Loss for uncertainty propagation.
 - **Status**: Completed Step 3 gap analysis.
+
+## [2026-09-18] Phase 0 - Step 4: GeoLite3D Project Definition
+- **Goal**: Finalize project definition, aims, objectives, and scope for Dissertation documentation.
+- **Project Aim**: Build a lightweight, geometry-guided Monocular 3D Object Detector (GeoLite3D) leveraging YOLOv10.
+- **Key Objectives**:
+  - Implement KITTI Data & Calibration Pipeline.
+  - Design Geometry Predictor Engine ($Z_{geo} + Z_{err}$).
+  - Implement Probabilistic Uncertainty Loss ($\beta$-NLL).
+  - Benchmark $AP_{3D}$, $AP_{BEV}$, Depth MAE/RMSE, and FPS on RTX 4090.
+- **Status**: Completed Phase 0 (Research Initiation & Problem Definition).
